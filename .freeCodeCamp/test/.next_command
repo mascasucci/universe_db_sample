@@ -2538,3 +2538,13 @@ git push -u origin main
 git pull origin main --rebase
 git status
 git add .
+git pull origin main --rebase
+git stash pop
+git add .
+git rebase --continue
+git push -u origin main
+git pull origin main --rebase
+git push -u origin main
+ls --color=auto
+git pull origin main --rebase
+git add .
